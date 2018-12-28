@@ -12,7 +12,7 @@
 
 ## How to use
 
-```
+```objective-c
     GYEasyForm *form = [[GYEasyForm alloc] init];
     GYEasySection *section = [[GYEasySection alloc] initWithHeaderHeight:10
                                                            headerBgColor:[UIColor groupTableViewBackgroundColor]
@@ -42,7 +42,7 @@
 You need to inherit `GYEasyRow` to write your own Row and create a Cell corresponding to this Row.
 like this:
 
-```
+```objective-c
 //ZGCustomRow.h
 #import <GYEasyForm/EasyForm.h>
 @interface ZGCustomRowCell : GYEasyCell
@@ -55,7 +55,7 @@ like this:
 
 ```
 
-```
+```objective-c
 //ZGCustomRow.m
 #import "ZGCustomRow.h"
 
@@ -83,8 +83,11 @@ like this:
 
 ```
 
+Of course, it can also be created with xcode template files.
+There is a `Templates` folder in the project directory. You can go to this folder to execute `sh install.sh`, Then restart xcode. 
+You can create a row 👇👇
 
-
+![template_row](https://raw.githubusercontent.com/zhugezhaofang/GYEasyForm/master/Images/create_row.png)
 
 ## Example
 
