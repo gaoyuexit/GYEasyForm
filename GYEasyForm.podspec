@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
 A mobile framework that is very easy to build forms. ✍️✍️✍️
                        DESC
 
-  s.homepage         = 'https://github.com/gaoyuexit/GYEasyForm'
+  s.homepage         = 'https://github.com/zhugezhaofang/GYEasyForm'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gaoyu' => 'gaoyuexit@gmail.com' }
-  s.source           = { :git => 'https://github.com/gaoyuexit/GYEasyForm.git', :tag => s.version.to_s }
-  s.social_media_url   = "https://github.com/gaoyuexit/GYEasyForm"
+  s.source           = { :git => 'https://github.com/zhugezhaofang/GYEasyForm.git', :tag => s.version.to_s }
+  s.social_media_url   = "https://github.com/zhugezhaofang/GYEasyForm"
   
 
   s.ios.deployment_target = '8.0'

@@ -22,8 +22,10 @@ pod 'GYEasyForm'
 
 ## Author
 
-gaoyuexit, gaoyu@zhugefang.com
+gaoyu, gaoyuexit@gmail.com
 
 ## License
 
 GYEasyForm is available under the MIT license. See the LICENSE file for more info.
+
+
