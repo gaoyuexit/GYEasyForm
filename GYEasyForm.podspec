@@ -27,10 +27,6 @@ A mobile framework that is very easy to build forms. ✍️✍️✍️
   s.author           = { 'gaoyu' => 'gaoyuexit@gmail.com' }
   s.source           = { :git => 'https://github.com/zhugezhaofang/GYEasyForm.git', :tag => s.version.to_s }
   s.social_media_url   = "https://github.com/zhugezhaofang/GYEasyForm"
-  
-
-  s.ios.deployment_target = '8.0'
-  s.requires_arc = true
 
   s.subspec 'Core' do |sp|
       sp.source_files = ['GYEasyForm/Classes/Core/*.{h,m}']
@@ -44,6 +40,10 @@ A mobile framework that is very easy to build forms. ✍️✍️✍️
       }
   end
   
+  s.platform = :ios
+  s.ios.deployment_target = '8.0'
+  s.requires_arc = true
+  s.default_subspec = 'Core'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
 end

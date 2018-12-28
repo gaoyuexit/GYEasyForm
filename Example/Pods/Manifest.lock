@@ -1,21 +1,21 @@
 PODS:
   - GYEasyForm (0.1.0):
     - GYEasyForm/Core (= 0.1.0)
-    - GYEasyForm/Rows (= 0.1.0)
   - GYEasyForm/Core (0.1.0)
   - GYEasyForm/Rows (0.1.0):
     - GYEasyForm/Core
 
 DEPENDENCIES:
   - GYEasyForm (from `../`)
+  - GYEasyForm/Rows (from `../`)
 
 EXTERNAL SOURCES:
   GYEasyForm:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GYEasyForm: cf16061aa3484a15da401d9d5e8d64433f3498de
+  GYEasyForm: 6c2e273f68b9b73cdd4e5d5e7fffec21cf5b83c7
 
-PODFILE CHECKSUM: c62fbd3178b9340f1c9a7f0a5e508ef7e4dc0276
+PODFILE CHECKSUM: 48469c2669ea830ae53776ba6f6fe83b413a9c6e
 
 COCOAPODS: 1.6.0.beta.2

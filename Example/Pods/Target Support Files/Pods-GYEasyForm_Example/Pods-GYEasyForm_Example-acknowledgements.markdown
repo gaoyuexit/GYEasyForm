@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## GYEasyForm
 
-Copyright (c) 2018 gaoyuexit <gaoyu@zhugefang.com>
+Copyright (c) 2018 gaoyu <gaoyuexit@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

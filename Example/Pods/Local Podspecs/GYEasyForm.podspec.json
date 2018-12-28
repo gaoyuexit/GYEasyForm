@@ -3,23 +3,24 @@
   "version": "0.1.0",
   "summary": "A mobile framework that is very easy to build forms.",
   "description": "A mobile framework that is very easy to build forms. ✍️✍️✍️",
-  "homepage": "https://github.com/gaoyuexit/GYEasyForm",
+  "homepage": "https://github.com/zhugezhaofang/GYEasyForm",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "gaoyuexit": "gaoyu@gmail.com"
+    "gaoyu": "gaoyuexit@gmail.com"
   },
   "source": {
-    "git": "https://github.com/gaoyuexit/GYEasyForm.git",
+    "git": "https://github.com/zhugezhaofang/GYEasyForm.git",
     "tag": "0.1.0"
   },
-  "social_media_url": "https://github.com/gaoyuexit/GYEasyForm",
+  "social_media_url": "https://github.com/zhugezhaofang/GYEasyForm",
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
+  "default_subspecs": "Core",
   "subspecs": [
     {
       "name": "Core",
