@@ -1,0 +1,21 @@
+PODS:
+  - GYEasyForm (0.1.0):
+    - GYEasyForm/Core (= 0.1.0)
+    - GYEasyForm/Rows (= 0.1.0)
+  - GYEasyForm/Core (0.1.0)
+  - GYEasyForm/Rows (0.1.0):
+    - GYEasyForm/Core
+
+DEPENDENCIES:
+  - GYEasyForm (from `../`)
+
+EXTERNAL SOURCES:
+  GYEasyForm:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GYEasyForm: cf16061aa3484a15da401d9d5e8d64433f3498de
+
+PODFILE CHECKSUM: c62fbd3178b9340f1c9a7f0a5e508ef7e4dc0276
+
+COCOAPODS: 1.6.0.beta.2

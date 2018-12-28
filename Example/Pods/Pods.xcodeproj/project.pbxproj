@@ -1,0 +1,995 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0148263C2768F7E1485854F594312B23 /* GYGradientButtonRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8022D29A4F45A6FF3EBF9EB36E478792 /* GYGradientButtonRow.m */; };
+		030FC7FCA06B86FA989BAE1B9C6A3CEF /* GYEasyTextFieldRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1976D00C2BB981FC3ADC2863F261A363 /* GYEasyTextFieldRow.m */; };
+		08E146DFB7477F74144CD6249DEDA42A /* GYTitleTextFieldRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 580BB0BDBAF31B508A7A556B1F3D14EC /* GYTitleTextFieldRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C0D88FCB1F7F77462098C45B4955E7D /* GYNormalButtonRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BF3E894F1AB4B783BC96CBE9B061F4 /* GYNormalButtonRow.m */; };
+		3F8BC38FD757229474DA15CF0697DEF3 /* GYEasyForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C67B1D64B41AF124250C9DA563799DD /* GYEasyForm.m */; };
+		427077FA1806E2CADBA0E839B8CD329E /* GYEasyRow.m in Sources */ = {isa = PBXBuildFile; fileRef = D25BD830776B25660442282FCB72A3ED /* GYEasyRow.m */; };
+		46F3C18DC729B54C4638ECC9CC04F1C0 /* GYEasySection.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE542F5CC77C6D39DE3879A0EE39C57 /* GYEasySection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		470CE5C007821E8618381E4FACCCB0F8 /* GYEasyForm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B20DBDE6E0887994A0DA4CDE27D115D /* GYEasyForm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48E08779F540B85214E0165269DEA127 /* GYEasyFormProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A60F583877EAB36E5B7ACDA118EF8B /* GYEasyFormProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		493376FA98C28C432E1F36117D673668 /* Pods-GYEasyForm_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F416242E781CE065A5AD976D095248 /* Pods-GYEasyForm_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E33BE2E814747D8D66E39315DFCAF89 /* GYEasyRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF1A279082FFCBAEC0CFA97EBA24A4E /* GYEasyRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5132B8F74A23909310BAD6A8774A801C /* GYEasyForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 42647ABF7D3BBABD82A3FD69E7D01C8C /* GYEasyForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		698953510CA4E24B6DD6BB9860F29054 /* GYEasyGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 206BFC0A3EC84749FEF2C4519E390504 /* GYEasyGradientButton.m */; };
+		6C31713AEDE2FAF5758C4A9E3D6FCA41 /* EasyForm.h in Headers */ = {isa = PBXBuildFile; fileRef = AC26601E13DE8DF18020C89754A2B054 /* EasyForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C383240E25E86529C61B95025294809 /* GYEasyFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F444FC0F83D0783C57140840DEE3D6 /* GYEasyFormView.m */; };
+		7477E02EF186841698A7EAD2D35AF834 /* GYEasyForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1459CBBD50E088B65EAD298DA7C5A43 /* GYEasyForm-dummy.m */; };
+		7528141A5121284D7C19457D88C5B96B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		791E2A82E96F0360CFCB9C4B4DEBA8FE /* GYSingleImageRow.h in Headers */ = {isa = PBXBuildFile; fileRef = D284D0AB807CD9332CE1AC49AE5908C6 /* GYSingleImageRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		819CA00CCFE0B5F8F2C882E61B65E102 /* Pods-GYEasyForm_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 781C6E7B00FFD052498C23285279709B /* Pods-GYEasyForm_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C56561E1EEE2C3C9E55A44827E591C4 /* GYEasyCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D1772A2BEBB445ED035D6403EE64A4 /* GYEasyCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		951D3AB96E509FE16F42017BCB540A86 /* GYNormalTitleRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 751F44684237B449E66744D831F90658 /* GYNormalTitleRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9572BFA26EF54A5FBCB2DD4A7C4B8E1E /* GYTitleTextFieldRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7AE3BA22FC81D5F4F997E7EF482A3F /* GYTitleTextFieldRow.m */; };
+		9D00B89BB8205D289F0D84F976131477 /* GYNormalTitleRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 83234055CB91459BFB25EC64506502FF /* GYNormalTitleRow.m */; };
+		9F3A1FF369BF1760E64DE3EB713C0FD2 /* GYNormalButtonRow.h in Headers */ = {isa = PBXBuildFile; fileRef = F00A3CC3A7D966CA4BFD8FF6A32898CA /* GYNormalButtonRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A12BED5EF123E1B413214FE42B9C8A9B /* GYSingleImageRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EA289C2209C107A9290B45F5C07F3A /* GYSingleImageRow.m */; };
+		A78B3533C6743C7C0AD5E80EB630F0E3 /* GYEasyGradientButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E81975F934B0D93B07FA58A77F02DFD9 /* GYEasyGradientButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE64F27086FE61A20F9B513BC370A3DB /* GYEasyTextFieldRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 41235FCA4BB1C07F1CC3873322F89D50 /* GYEasyTextFieldRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE681C734047D6FF694B00C80E4BD6EE /* GYEasySection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B29056902DB5B5B7365FF1D22098069 /* GYEasySection.m */; };
+		B3DD398A218ED5C03C6D2E56F573F361 /* Rows.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B735889D23340CC9B218DD3DB4F591F /* Rows.bundle */; };
+		B9BDC5A13569E9D3FEF9AC133C857E16 /* GYEasyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6626EA449AB669648BB643DE71EF8FE /* GYEasyCell.m */; };
+		BF96A281FBD95CB9564138C5B5D2EB1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		C01F70F580284EBB8E15A452CFF13A6D /* Pods-GYEasyForm_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F05C19C5D7284D425273173EA5227EF /* Pods-GYEasyForm_Example-dummy.m */; };
+		C2688E59FEBDA6CA8C86A5288B65DB0C /* Pods-GYEasyForm_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0FC526D35C53E21F360E88957A888 /* Pods-GYEasyForm_Tests-dummy.m */; };
+		C9DA345212AC6B86160A16A49EDEFED8 /* GYEasyFormView.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CA398195952B7116A2F237DE7AFAE1 /* GYEasyFormView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D282C78B63FDFCB13D573D969EAC8B1C /* GYGradientButtonRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C3B9374110CFBAE62C7E7F062204C107 /* GYGradientButtonRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC847CBAEBC385EB966338634110ED31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		ED6FF6CB1D0B81BA4DEC21499D427950 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE66E19DB5A49295123D0516581B0231 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5FDEC9A8A28F15181B9C4ED91589B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00BDB317A10ADC0C8EB2E5F6078D2334;
+			remoteInfo = "GYEasyForm-Rows";
+		};
+		AAF74CCA112E6B14CE12F405170B97F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF94160C2137A88D3CDA56947DA3C55;
+			remoteInfo = "Pods-GYEasyForm_Example";
+		};
+		B6F22FC22D01E420624A19B3652E84A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F98A7414A3A4F81978CC0B9BD392770;
+			remoteInfo = GYEasyForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0482F49078ADB73B520FB8F9149F7418 /* Pods-GYEasyForm_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GYEasyForm_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		09F4C4F0366F50F198924F455798F3D0 /* Pods-GYEasyForm_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GYEasyForm_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D41035ECCAF1A6A1ABAAA7C4438499D /* Pods-GYEasyForm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYEasyForm_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0EB4EF3324F885EF3E10733D21C65403 /* Pods-GYEasyForm_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GYEasyForm_Tests-Info.plist"; sourceTree = "<group>"; };
+		127B9AF212FD3255997FADD283F75F16 /* ResourceBundle-Rows-GYEasyForm-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Rows-GYEasyForm-Info.plist"; sourceTree = "<group>"; };
+		16B350D36973349598664F9C9D334A0D /* Pods-GYEasyForm_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GYEasyForm_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1976D00C2BB981FC3ADC2863F261A363 /* GYEasyTextFieldRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYEasyTextFieldRow.m; path = GYEasyForm/Classes/Rows/GYEasyTextFieldRow.m; sourceTree = "<group>"; };
+		206BFC0A3EC84749FEF2C4519E390504 /* GYEasyGradientButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYEasyGradientButton.m; path = GYEasyForm/Classes/Rows/GYEasyGradientButton.m; sourceTree = "<group>"; };
+		2CA0FC526D35C53E21F360E88957A888 /* Pods-GYEasyForm_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GYEasyForm_Tests-dummy.m"; sourceTree = "<group>"; };
+		2D774B2B43EC92AD1D43C72EF5B109B7 /* Pods_GYEasyForm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GYEasyForm_Tests.framework; path = "Pods-GYEasyForm_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F05C19C5D7284D425273173EA5227EF /* Pods-GYEasyForm_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GYEasyForm_Example-dummy.m"; sourceTree = "<group>"; };
+		3072691F87F61DA969A6F9612360B8BB /* Pods-GYEasyForm_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYEasyForm_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3277482FF1BF373CB8E10174FC3EFD6E /* Pods-GYEasyForm_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GYEasyForm_Example.modulemap"; sourceTree = "<group>"; };
+		3B29056902DB5B5B7365FF1D22098069 /* GYEasySection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYEasySection.m; path = GYEasyForm/Classes/Core/GYEasySection.m; sourceTree = "<group>"; };
+		3D7AE3BA22FC81D5F4F997E7EF482A3F /* GYTitleTextFieldRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYTitleTextFieldRow.m; path = GYEasyForm/Classes/Rows/GYTitleTextFieldRow.m; sourceTree = "<group>"; };
+		41235FCA4BB1C07F1CC3873322F89D50 /* GYEasyTextFieldRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYEasyTextFieldRow.h; path = GYEasyForm/Classes/Rows/GYEasyTextFieldRow.h; sourceTree = "<group>"; };
+		42647ABF7D3BBABD82A3FD69E7D01C8C /* GYEasyForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYEasyForm.h; path = GYEasyForm/Classes/Core/GYEasyForm.h; sourceTree = "<group>"; };
+		44383B189DA6FB546FF4F344A9F4197D /* Pods_GYEasyForm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GYEasyForm_Example.framework; path = "Pods-GYEasyForm_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F67FF38369C87ABF656A7D62CC281C /* GYEasyForm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GYEasyForm.xcconfig; sourceTree = "<group>"; };
+		57CA398195952B7116A2F237DE7AFAE1 /* GYEasyFormView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYEasyFormView.h; path = GYEasyForm/Classes/Core/GYEasyFormView.h; sourceTree = "<group>"; };
+		580BB0BDBAF31B508A7A556B1F3D14EC /* GYTitleTextFieldRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYTitleTextFieldRow.h; path = GYEasyForm/Classes/Rows/GYTitleTextFieldRow.h; sourceTree = "<group>"; };
+		58F416242E781CE065A5AD976D095248 /* Pods-GYEasyForm_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GYEasyForm_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5FE66963637613D931D50C0368B70B15 /* Pods-GYEasyForm_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GYEasyForm_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		60EA289C2209C107A9290B45F5C07F3A /* GYSingleImageRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYSingleImageRow.m; path = GYEasyForm/Classes/Rows/GYSingleImageRow.m; sourceTree = "<group>"; };
+		6C67B1D64B41AF124250C9DA563799DD /* GYEasyForm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYEasyForm.m; path = GYEasyForm/Classes/Core/GYEasyForm.m; sourceTree = "<group>"; };
+		73B1AE0614FE9C662F880C110028D300 /* Pods-GYEasyForm_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYEasyForm_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		751F44684237B449E66744D831F90658 /* GYNormalTitleRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYNormalTitleRow.h; path = GYEasyForm/Classes/Rows/GYNormalTitleRow.h; sourceTree = "<group>"; };
+		781C6E7B00FFD052498C23285279709B /* Pods-GYEasyForm_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GYEasyForm_Example-umbrella.h"; sourceTree = "<group>"; };
+		78A60F583877EAB36E5B7ACDA118EF8B /* GYEasyFormProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYEasyFormProtocol.h; path = GYEasyForm/Classes/Core/GYEasyFormProtocol.h; sourceTree = "<group>"; };
+		7DEAFBAB80CA039F8217D9BC58A11C9C /* Pods-GYEasyForm_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYEasyForm_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8022D29A4F45A6FF3EBF9EB36E478792 /* GYGradientButtonRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYGradientButtonRow.m; path = GYEasyForm/Classes/Rows/GYGradientButtonRow.m; sourceTree = "<group>"; };
+		81D1772A2BEBB445ED035D6403EE64A4 /* GYEasyCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYEasyCell.h; path = GYEasyForm/Classes/Core/GYEasyCell.h; sourceTree = "<group>"; };
+		83234055CB91459BFB25EC64506502FF /* GYNormalTitleRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYNormalTitleRow.m; path = GYEasyForm/Classes/Rows/GYNormalTitleRow.m; sourceTree = "<group>"; };
+		87F444FC0F83D0783C57140840DEE3D6 /* GYEasyFormView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYEasyFormView.m; path = GYEasyForm/Classes/Core/GYEasyFormView.m; sourceTree = "<group>"; };
+		8B10B00F14C728F0B9D5A8FB85153683 /* Pods-GYEasyForm_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GYEasyForm_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8FF1A279082FFCBAEC0CFA97EBA24A4E /* GYEasyRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYEasyRow.h; path = GYEasyForm/Classes/Core/GYEasyRow.h; sourceTree = "<group>"; };
+		9B20DBDE6E0887994A0DA4CDE27D115D /* GYEasyForm-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GYEasyForm-umbrella.h"; sourceTree = "<group>"; };
+		9B735889D23340CC9B218DD3DB4F591F /* Rows.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Rows.bundle; path = "GYEasyForm-Rows.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC26601E13DE8DF18020C89754A2B054 /* EasyForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EasyForm.h; path = GYEasyForm/Classes/Core/EasyForm.h; sourceTree = "<group>"; };
+		AD960EB05399EF4F53710DF3892AD9FA /* Pods-GYEasyForm_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GYEasyForm_Tests.modulemap"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B39F298FBD5C290B6512DBDAC2CB7994 /* Pods-GYEasyForm_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GYEasyForm_Example-Info.plist"; sourceTree = "<group>"; };
+		B4216B0B635422E98E6583CDB0277DDD /* GYEasyForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GYEasyForm.framework; path = GYEasyForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95E132173E5F6D02869BAE9E71C65DB /* GYEasyForm.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GYEasyForm.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDE542F5CC77C6D39DE3879A0EE39C57 /* GYEasySection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYEasySection.h; path = GYEasyForm/Classes/Core/GYEasySection.h; sourceTree = "<group>"; };
+		BE4B1D7596B4CDD325F5C6DD1B606DE6 /* GYEasyForm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GYEasyForm-prefix.pch"; sourceTree = "<group>"; };
+		C08D17BD285C8DF70258C5FA66A425FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C3B9374110CFBAE62C7E7F062204C107 /* GYGradientButtonRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYGradientButtonRow.h; path = GYEasyForm/Classes/Rows/GYGradientButtonRow.h; sourceTree = "<group>"; };
+		C6626EA449AB669648BB643DE71EF8FE /* GYEasyCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYEasyCell.m; path = GYEasyForm/Classes/Core/GYEasyCell.m; sourceTree = "<group>"; };
+		D25BD830776B25660442282FCB72A3ED /* GYEasyRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYEasyRow.m; path = GYEasyForm/Classes/Core/GYEasyRow.m; sourceTree = "<group>"; };
+		D284D0AB807CD9332CE1AC49AE5908C6 /* GYSingleImageRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYSingleImageRow.h; path = GYEasyForm/Classes/Rows/GYSingleImageRow.h; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E60AC33A8D22A723B6D8BF7766409442 /* GYEasyForm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GYEasyForm.modulemap; sourceTree = "<group>"; };
+		E81975F934B0D93B07FA58A77F02DFD9 /* GYEasyGradientButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYEasyGradientButton.h; path = GYEasyForm/Classes/Rows/GYEasyGradientButton.h; sourceTree = "<group>"; };
+		F00A3CC3A7D966CA4BFD8FF6A32898CA /* GYNormalButtonRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYNormalButtonRow.h; path = GYEasyForm/Classes/Rows/GYNormalButtonRow.h; sourceTree = "<group>"; };
+		F0BF3E894F1AB4B783BC96CBE9B061F4 /* GYNormalButtonRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYNormalButtonRow.m; path = GYEasyForm/Classes/Rows/GYNormalButtonRow.m; sourceTree = "<group>"; };
+		F1459CBBD50E088B65EAD298DA7C5A43 /* GYEasyForm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GYEasyForm-dummy.m"; sourceTree = "<group>"; };
+		F71DAAF04A6138541B5E4BD931CC920B /* GYEasyForm-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GYEasyForm-Info.plist"; sourceTree = "<group>"; };
+		FB53A398A09F87CB70460767261F508D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FE66E19DB5A49295123D0516581B0231 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GYEasyForm/Assets/Rows/Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CBC56BA00A27F8D309367C3EE74DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7528141A5121284D7C19457D88C5B96B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217FB23502BE2C0871771A7B7BF28958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC847CBAEBC385EB966338634110ED31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30811C77D61BC0BF2F4590127906DF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0644CD813B762A9DD110DDC6D045CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF96A281FBD95CB9564138C5B5D2EB1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B8573C5D7446C94E0848C9D5BC3697 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E60AC33A8D22A723B6D8BF7766409442 /* GYEasyForm.modulemap */,
+				49F67FF38369C87ABF656A7D62CC281C /* GYEasyForm.xcconfig */,
+				F1459CBBD50E088B65EAD298DA7C5A43 /* GYEasyForm-dummy.m */,
+				F71DAAF04A6138541B5E4BD931CC920B /* GYEasyForm-Info.plist */,
+				BE4B1D7596B4CDD325F5C6DD1B606DE6 /* GYEasyForm-prefix.pch */,
+				9B20DBDE6E0887994A0DA4CDE27D115D /* GYEasyForm-umbrella.h */,
+				127B9AF212FD3255997FADD283F75F16 /* ResourceBundle-Rows-GYEasyForm-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GYEasyForm";
+			sourceTree = "<group>";
+		};
+		3D2D3D3AFD7CA50CC710828653DD486E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE66E19DB5A49295123D0516581B0231 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		46C4B3CFB46DA1C6EA76614623F63EC4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5567418B08109131735915EF48BC1C5 /* Pods-GYEasyForm_Example */,
+				82A7E566F45EDB247CC7FEE571011DF7 /* Pods-GYEasyForm_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		528E2CD8DC15710E20B37ABD797D4E7C /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				E81975F934B0D93B07FA58A77F02DFD9 /* GYEasyGradientButton.h */,
+				206BFC0A3EC84749FEF2C4519E390504 /* GYEasyGradientButton.m */,
+				41235FCA4BB1C07F1CC3873322F89D50 /* GYEasyTextFieldRow.h */,
+				1976D00C2BB981FC3ADC2863F261A363 /* GYEasyTextFieldRow.m */,
+				C3B9374110CFBAE62C7E7F062204C107 /* GYGradientButtonRow.h */,
+				8022D29A4F45A6FF3EBF9EB36E478792 /* GYGradientButtonRow.m */,
+				F00A3CC3A7D966CA4BFD8FF6A32898CA /* GYNormalButtonRow.h */,
+				F0BF3E894F1AB4B783BC96CBE9B061F4 /* GYNormalButtonRow.m */,
+				751F44684237B449E66744D831F90658 /* GYNormalTitleRow.h */,
+				83234055CB91459BFB25EC64506502FF /* GYNormalTitleRow.m */,
+				D284D0AB807CD9332CE1AC49AE5908C6 /* GYSingleImageRow.h */,
+				60EA289C2209C107A9290B45F5C07F3A /* GYSingleImageRow.m */,
+				580BB0BDBAF31B508A7A556B1F3D14EC /* GYTitleTextFieldRow.h */,
+				3D7AE3BA22FC81D5F4F997E7EF482A3F /* GYTitleTextFieldRow.m */,
+				3D2D3D3AFD7CA50CC710828653DD486E /* Resources */,
+			);
+			name = Rows;
+			sourceTree = "<group>";
+		};
+		6913941A33EEE5A31AC2F1D603888E3D /* GYEasyForm */ = {
+			isa = PBXGroup;
+			children = (
+				D30171476FF637B837030C7D10C892EB /* Core */,
+				FE3867730556AFF93162B92FB983F95C /* Pod */,
+				528E2CD8DC15710E20B37ABD797D4E7C /* Rows */,
+				17B8573C5D7446C94E0848C9D5BC3697 /* Support Files */,
+			);
+			name = GYEasyForm;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6C2FFDF20F271A3D2B473372084CC27C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4216B0B635422E98E6583CDB0277DDD /* GYEasyForm.framework */,
+				44383B189DA6FB546FF4F344A9F4197D /* Pods_GYEasyForm_Example.framework */,
+				2D774B2B43EC92AD1D43C72EF5B109B7 /* Pods_GYEasyForm_Tests.framework */,
+				9B735889D23340CC9B218DD3DB4F591F /* Rows.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				9374D30AFDDC2149AB1787E216939B60 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6C2FFDF20F271A3D2B473372084CC27C /* Products */,
+				46C4B3CFB46DA1C6EA76614623F63EC4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82A7E566F45EDB247CC7FEE571011DF7 /* Pods-GYEasyForm_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AD960EB05399EF4F53710DF3892AD9FA /* Pods-GYEasyForm_Tests.modulemap */,
+				16B350D36973349598664F9C9D334A0D /* Pods-GYEasyForm_Tests-acknowledgements.markdown */,
+				5FE66963637613D931D50C0368B70B15 /* Pods-GYEasyForm_Tests-acknowledgements.plist */,
+				2CA0FC526D35C53E21F360E88957A888 /* Pods-GYEasyForm_Tests-dummy.m */,
+				0EB4EF3324F885EF3E10733D21C65403 /* Pods-GYEasyForm_Tests-Info.plist */,
+				58F416242E781CE065A5AD976D095248 /* Pods-GYEasyForm_Tests-umbrella.h */,
+				7DEAFBAB80CA039F8217D9BC58A11C9C /* Pods-GYEasyForm_Tests.debug.xcconfig */,
+				3072691F87F61DA969A6F9612360B8BB /* Pods-GYEasyForm_Tests.release.xcconfig */,
+			);
+			name = "Pods-GYEasyForm_Tests";
+			path = "Target Support Files/Pods-GYEasyForm_Tests";
+			sourceTree = "<group>";
+		};
+		9374D30AFDDC2149AB1787E216939B60 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6913941A33EEE5A31AC2F1D603888E3D /* GYEasyForm */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A5567418B08109131735915EF48BC1C5 /* Pods-GYEasyForm_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3277482FF1BF373CB8E10174FC3EFD6E /* Pods-GYEasyForm_Example.modulemap */,
+				0482F49078ADB73B520FB8F9149F7418 /* Pods-GYEasyForm_Example-acknowledgements.markdown */,
+				09F4C4F0366F50F198924F455798F3D0 /* Pods-GYEasyForm_Example-acknowledgements.plist */,
+				2F05C19C5D7284D425273173EA5227EF /* Pods-GYEasyForm_Example-dummy.m */,
+				8B10B00F14C728F0B9D5A8FB85153683 /* Pods-GYEasyForm_Example-frameworks.sh */,
+				B39F298FBD5C290B6512DBDAC2CB7994 /* Pods-GYEasyForm_Example-Info.plist */,
+				781C6E7B00FFD052498C23285279709B /* Pods-GYEasyForm_Example-umbrella.h */,
+				73B1AE0614FE9C662F880C110028D300 /* Pods-GYEasyForm_Example.debug.xcconfig */,
+				0D41035ECCAF1A6A1ABAAA7C4438499D /* Pods-GYEasyForm_Example.release.xcconfig */,
+			);
+			name = "Pods-GYEasyForm_Example";
+			path = "Target Support Files/Pods-GYEasyForm_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D30171476FF637B837030C7D10C892EB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AC26601E13DE8DF18020C89754A2B054 /* EasyForm.h */,
+				81D1772A2BEBB445ED035D6403EE64A4 /* GYEasyCell.h */,
+				C6626EA449AB669648BB643DE71EF8FE /* GYEasyCell.m */,
+				42647ABF7D3BBABD82A3FD69E7D01C8C /* GYEasyForm.h */,
+				6C67B1D64B41AF124250C9DA563799DD /* GYEasyForm.m */,
+				78A60F583877EAB36E5B7ACDA118EF8B /* GYEasyFormProtocol.h */,
+				57CA398195952B7116A2F237DE7AFAE1 /* GYEasyFormView.h */,
+				87F444FC0F83D0783C57140840DEE3D6 /* GYEasyFormView.m */,
+				8FF1A279082FFCBAEC0CFA97EBA24A4E /* GYEasyRow.h */,
+				D25BD830776B25660442282FCB72A3ED /* GYEasyRow.m */,
+				BDE542F5CC77C6D39DE3879A0EE39C57 /* GYEasySection.h */,
+				3B29056902DB5B5B7365FF1D22098069 /* GYEasySection.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FE3867730556AFF93162B92FB983F95C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B95E132173E5F6D02869BAE9E71C65DB /* GYEasyForm.podspec */,
+				C08D17BD285C8DF70258C5FA66A425FC /* LICENSE */,
+				FB53A398A09F87CB70460767261F508D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F453BA8BA0FB5E2C4223DEBC4182633 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819CA00CCFE0B5F8F2C882E61B65E102 /* Pods-GYEasyForm_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9F934256F00BE34C271778878D81E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493376FA98C28C432E1F36117D673668 /* Pods-GYEasyForm_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA36A3B182E74CDB865031C4E3A548C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C31713AEDE2FAF5758C4A9E3D6FCA41 /* EasyForm.h in Headers */,
+				8C56561E1EEE2C3C9E55A44827E591C4 /* GYEasyCell.h in Headers */,
+				470CE5C007821E8618381E4FACCCB0F8 /* GYEasyForm-umbrella.h in Headers */,
+				5132B8F74A23909310BAD6A8774A801C /* GYEasyForm.h in Headers */,
+				48E08779F540B85214E0165269DEA127 /* GYEasyFormProtocol.h in Headers */,
+				C9DA345212AC6B86160A16A49EDEFED8 /* GYEasyFormView.h in Headers */,
+				A78B3533C6743C7C0AD5E80EB630F0E3 /* GYEasyGradientButton.h in Headers */,
+				4E33BE2E814747D8D66E39315DFCAF89 /* GYEasyRow.h in Headers */,
+				46F3C18DC729B54C4638ECC9CC04F1C0 /* GYEasySection.h in Headers */,
+				AE64F27086FE61A20F9B513BC370A3DB /* GYEasyTextFieldRow.h in Headers */,
+				D282C78B63FDFCB13D573D969EAC8B1C /* GYGradientButtonRow.h in Headers */,
+				9F3A1FF369BF1760E64DE3EB713C0FD2 /* GYNormalButtonRow.h in Headers */,
+				951D3AB96E509FE16F42017BCB540A86 /* GYNormalTitleRow.h in Headers */,
+				791E2A82E96F0360CFCB9C4B4DEBA8FE /* GYSingleImageRow.h in Headers */,
+				08E146DFB7477F74144CD6249DEDA42A /* GYTitleTextFieldRow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00BDB317A10ADC0C8EB2E5F6078D2334 /* GYEasyForm-Rows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9771637731ADFFB8A2518E51639E31 /* Build configuration list for PBXNativeTarget "GYEasyForm-Rows" */;
+			buildPhases = (
+				23047502C4D438226491A695A4E66342 /* Sources */,
+				30811C77D61BC0BF2F4590127906DF3C /* Frameworks */,
+				ADD78683F032F91921AF98EAA4E5FCC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GYEasyForm-Rows";
+			productName = "GYEasyForm-Rows";
+			productReference = 9B735889D23340CC9B218DD3DB4F591F /* Rows.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2FF94160C2137A88D3CDA56947DA3C55 /* Pods-GYEasyForm_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B11EFEFBBCDA3CA2E3D39F54DB070D /* Build configuration list for PBXNativeTarget "Pods-GYEasyForm_Example" */;
+			buildPhases = (
+				6F453BA8BA0FB5E2C4223DEBC4182633 /* Headers */,
+				984D589F089A604E2C581AF2D12B8834 /* Sources */,
+				04CBC56BA00A27F8D309367C3EE74DA6 /* Frameworks */,
+				0E7A8EC6F708C0700EB165F768CA0299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95CE276FDEA12FC05917670BB8DDD56B /* PBXTargetDependency */,
+			);
+			name = "Pods-GYEasyForm_Example";
+			productName = "Pods-GYEasyForm_Example";
+			productReference = 44383B189DA6FB546FF4F344A9F4197D /* Pods_GYEasyForm_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		559F50C38B6C8D890ECE831D1C1DA64B /* Pods-GYEasyForm_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62C125BEB3953124DFB23EFA0B38B5B /* Build configuration list for PBXNativeTarget "Pods-GYEasyForm_Tests" */;
+			buildPhases = (
+				8D9F934256F00BE34C271778878D81E8 /* Headers */,
+				8B55229AF5F141DF314BDBC100264B07 /* Sources */,
+				217FB23502BE2C0871771A7B7BF28958 /* Frameworks */,
+				889E0AF77AC4350599352C7C7FAB6F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68071BAB7AB6BC0B70DFB2E82FBB57FE /* PBXTargetDependency */,
+			);
+			name = "Pods-GYEasyForm_Tests";
+			productName = "Pods-GYEasyForm_Tests";
+			productReference = 2D774B2B43EC92AD1D43C72EF5B109B7 /* Pods_GYEasyForm_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F98A7414A3A4F81978CC0B9BD392770 /* GYEasyForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284923DB9C70E601F4E655B6786331D3 /* Build configuration list for PBXNativeTarget "GYEasyForm" */;
+			buildPhases = (
+				EDA36A3B182E74CDB865031C4E3A548C /* Headers */,
+				769F67926F147D065130B35B26ECC843 /* Sources */,
+				7D0644CD813B762A9DD110DDC6D045CA /* Frameworks */,
+				F68247A0954090EA6734D1F9587485BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				815BEC58AFE87013DC38ECED15057256 /* PBXTargetDependency */,
+			);
+			name = GYEasyForm;
+			productName = GYEasyForm;
+			productReference = B4216B0B635422E98E6583CDB0277DDD /* GYEasyForm.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6C2FFDF20F271A3D2B473372084CC27C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F98A7414A3A4F81978CC0B9BD392770 /* GYEasyForm */,
+				00BDB317A10ADC0C8EB2E5F6078D2334 /* GYEasyForm-Rows */,
+				2FF94160C2137A88D3CDA56947DA3C55 /* Pods-GYEasyForm_Example */,
+				559F50C38B6C8D890ECE831D1C1DA64B /* Pods-GYEasyForm_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E7A8EC6F708C0700EB165F768CA0299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889E0AF77AC4350599352C7C7FAB6F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD78683F032F91921AF98EAA4E5FCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6FF6CB1D0B81BA4DEC21499D427950 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68247A0954090EA6734D1F9587485BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DD398A218ED5C03C6D2E56F573F361 /* Rows.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23047502C4D438226491A695A4E66342 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769F67926F147D065130B35B26ECC843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BDC5A13569E9D3FEF9AC133C857E16 /* GYEasyCell.m in Sources */,
+				7477E02EF186841698A7EAD2D35AF834 /* GYEasyForm-dummy.m in Sources */,
+				3F8BC38FD757229474DA15CF0697DEF3 /* GYEasyForm.m in Sources */,
+				6C383240E25E86529C61B95025294809 /* GYEasyFormView.m in Sources */,
+				698953510CA4E24B6DD6BB9860F29054 /* GYEasyGradientButton.m in Sources */,
+				427077FA1806E2CADBA0E839B8CD329E /* GYEasyRow.m in Sources */,
+				AE681C734047D6FF694B00C80E4BD6EE /* GYEasySection.m in Sources */,
+				030FC7FCA06B86FA989BAE1B9C6A3CEF /* GYEasyTextFieldRow.m in Sources */,
+				0148263C2768F7E1485854F594312B23 /* GYGradientButtonRow.m in Sources */,
+				1C0D88FCB1F7F77462098C45B4955E7D /* GYNormalButtonRow.m in Sources */,
+				9D00B89BB8205D289F0D84F976131477 /* GYNormalTitleRow.m in Sources */,
+				A12BED5EF123E1B413214FE42B9C8A9B /* GYSingleImageRow.m in Sources */,
+				9572BFA26EF54A5FBCB2DD4A7C4B8E1E /* GYTitleTextFieldRow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B55229AF5F141DF314BDBC100264B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2688E59FEBDA6CA8C86A5288B65DB0C /* Pods-GYEasyForm_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		984D589F089A604E2C581AF2D12B8834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F70F580284EBB8E15A452CFF13A6D /* Pods-GYEasyForm_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68071BAB7AB6BC0B70DFB2E82FBB57FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GYEasyForm_Example";
+			target = 2FF94160C2137A88D3CDA56947DA3C55 /* Pods-GYEasyForm_Example */;
+			targetProxy = AAF74CCA112E6B14CE12F405170B97F1 /* PBXContainerItemProxy */;
+		};
+		815BEC58AFE87013DC38ECED15057256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GYEasyForm-Rows";
+			target = 00BDB317A10ADC0C8EB2E5F6078D2334 /* GYEasyForm-Rows */;
+			targetProxy = A5FDEC9A8A28F15181B9C4ED91589B33 /* PBXContainerItemProxy */;
+		};
+		95CE276FDEA12FC05917670BB8DDD56B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GYEasyForm;
+			target = 6F98A7414A3A4F81978CC0B9BD392770 /* GYEasyForm */;
+			targetProxy = B6F22FC22D01E420624A19B3652E84A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39738F35D908B231E97E99E25BBEF3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F67FF38369C87ABF656A7D62CC281C /* GYEasyForm.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GYEasyForm/GYEasyForm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GYEasyForm/GYEasyForm-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GYEasyForm/GYEasyForm.modulemap";
+				PRODUCT_MODULE_NAME = GYEasyForm;
+				PRODUCT_NAME = GYEasyForm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57D8D1B6FE9162FD659874F845BC4AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F67FF38369C87ABF656A7D62CC281C /* GYEasyForm.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GYEasyForm/GYEasyForm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GYEasyForm/GYEasyForm-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GYEasyForm/GYEasyForm.modulemap";
+				PRODUCT_MODULE_NAME = GYEasyForm;
+				PRODUCT_NAME = GYEasyForm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AAE4F94D009FE670D0ACBEBA1F7E84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F67FF38369C87ABF656A7D62CC281C /* GYEasyForm.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GYEasyForm";
+				INFOPLIST_FILE = "Target Support Files/GYEasyForm/ResourceBundle-Rows-GYEasyForm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Rows;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6C21F6BDD131FF529847EABB950368D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F67FF38369C87ABF656A7D62CC281C /* GYEasyForm.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GYEasyForm";
+				INFOPLIST_FILE = "Target Support Files/GYEasyForm/ResourceBundle-Rows-GYEasyForm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Rows;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8ABD975ECEAD301FDA190E219E802E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3072691F87F61DA969A6F9612360B8BB /* Pods-GYEasyForm_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GYEasyForm_Tests/Pods-GYEasyForm_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GYEasyForm_Tests/Pods-GYEasyForm_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C2642C98620175928CCCC8E99C9F073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B1AE0614FE9C662F880C110028D300 /* Pods-GYEasyForm_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GYEasyForm_Example/Pods-GYEasyForm_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GYEasyForm_Example/Pods-GYEasyForm_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C73880C0AD6226D395CE2FA254762314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D41035ECCAF1A6A1ABAAA7C4438499D /* Pods-GYEasyForm_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GYEasyForm_Example/Pods-GYEasyForm_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GYEasyForm_Example/Pods-GYEasyForm_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE1E3DB029BAF15B4CEAC83F0F7120C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DEAFBAB80CA039F8217D9BC58A11C9C /* Pods-GYEasyForm_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GYEasyForm_Tests/Pods-GYEasyForm_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GYEasyForm_Tests/Pods-GYEasyForm_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		284923DB9C70E601F4E655B6786331D3 /* Build configuration list for PBXNativeTarget "GYEasyForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39738F35D908B231E97E99E25BBEF3F5 /* Debug */,
+				57D8D1B6FE9162FD659874F845BC4AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B11EFEFBBCDA3CA2E3D39F54DB070D /* Build configuration list for PBXNativeTarget "Pods-GYEasyForm_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2642C98620175928CCCC8E99C9F073 /* Debug */,
+				C73880C0AD6226D395CE2FA254762314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9771637731ADFFB8A2518E51639E31 /* Build configuration list for PBXNativeTarget "GYEasyForm-Rows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AAE4F94D009FE670D0ACBEBA1F7E84E /* Debug */,
+				6C21F6BDD131FF529847EABB950368D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62C125BEB3953124DFB23EFA0B38B5B /* Build configuration list for PBXNativeTarget "Pods-GYEasyForm_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1E3DB029BAF15B4CEAC83F0F7120C3 /* Debug */,
+				8ABD975ECEAD301FDA190E219E802E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
