@@ -88,9 +88,7 @@
         
     };
     
-    GYPhotoWallRow *photoRow = [GYPhotoWallRow rowInit:^(__kindof GYPhotoWallRow * _Nonnull row) {
-        row.height = UITableViewAutomaticDimension;
-    }];
+    GYPhotoWallRow *photoRow = [GYPhotoWallRow rowInit:nil];
     __weak typeof(photoRow)weakPhotoRow = photoRow;
     photoRow.addImageAction = ^{
         TZImagePickerController *imagePickerVc = [[TZImagePickerController alloc] initWithMaxImagesCount:9 delegate:weakSelf];
@@ -100,7 +98,6 @@
         }];
         [weakSelf presentViewController:imagePickerVc animated:YES completion:nil];
     };
-    
     
     GYGradientButtonRow *submitRow = [GYGradientButtonRow rowInit:^(GYGradientButtonRow * _Nonnull row) {
         row.height = 85;

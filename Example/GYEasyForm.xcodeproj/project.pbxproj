@@ -182,6 +182,8 @@
 				1899CB7721D745AD0031A712 /* CustomRow */,
 				6003F59C195388D20070C39A /* GYAppDelegate.h */,
 				6003F59D195388D20070C39A /* GYAppDelegate.m */,
+				1899CB7F21D74E030031A712 /* GYCustomHeader.h */,
+				1899CB8021D74E030031A712 /* GYCustomHeader.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* GYViewController.h */,
 				6003F5A6195388D20070C39A /* GYViewController.m */,
@@ -190,8 +192,6 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				1899CB7F21D74E030031A712 /* GYCustomHeader.h */,
-				1899CB8021D74E030031A712 /* GYCustomHeader.m */,
 			);
 			name = "Example for GYEasyForm";
 			path = GYEasyForm;

@@ -113,6 +113,7 @@
         self.itemSize = 80;
         self.interitemSpacing = 10;
         self.sectionInset = UIEdgeInsetsMake(15, 20, 15, 20);
+        self.height = UITableViewAutomaticDimension;
         _images = [NSMutableArray array];
     }
     return self;

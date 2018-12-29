@@ -87,7 +87,7 @@ Of course, it can also be created with xcode template files.
 There is a `Templates` folder in the project directory. You can go to this folder to execute `sh install.sh`, Then restart xcode. 
 You can create a row 👇👇
 
-![template_row](https://raw.githubusercontent.com/zhugezhaofang/GYEasyForm/master/Images/create_row.png)
+![template_row](https://raw.githubusercontent.com/zhugezhaofang/GYEasyForm/master/Images/row_template.png)
 
 ## Example
 
