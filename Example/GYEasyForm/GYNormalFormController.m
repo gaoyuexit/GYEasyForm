@@ -88,7 +88,9 @@
         
     };
     
-    GYPhotoWallRow *photoRow = [GYPhotoWallRow rowInit:nil];
+    GYPhotoWallRow *photoRow = [GYPhotoWallRow rowInit:^(__kindof GYPhotoWallRow * _Nonnull row) {
+        row.addImage = [UIImage imageNamed:@"addImage"];
+    }];
     __weak typeof(photoRow)weakPhotoRow = photoRow;
     photoRow.addImageAction = ^{
         TZImagePickerController *imagePickerVc = [[TZImagePickerController alloc] initWithMaxImagesCount:9 delegate:weakSelf];

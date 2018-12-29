@@ -84,7 +84,7 @@
     GYPhotoCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:[GYPhotoCell description] forIndexPath:indexPath];
     GYPhotoWallRow *row = self.row;
     if (indexPath.row == row.images.count) {
-        cell.iconView.image = [UIImage imageNamed:@"addImage"];
+        cell.iconView.image = row.addImage;
     }else{
         cell.iconView.image = row.images[indexPath.row];
     }
