@@ -4,10 +4,22 @@ PODS:
   - GYEasyForm/Core (0.1.0)
   - GYEasyForm/Rows (0.1.0):
     - GYEasyForm/Core
+  - IQKeyboardManager (6.2.0)
+  - Masonry (1.1.0)
+  - TZImagePickerController (3.1.6)
 
 DEPENDENCIES:
   - GYEasyForm (from `../`)
   - GYEasyForm/Rows (from `../`)
+  - IQKeyboardManager
+  - Masonry
+  - TZImagePickerController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManager
+    - Masonry
+    - TZImagePickerController
 
 EXTERNAL SOURCES:
   GYEasyForm:
@@ -15,7 +27,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   GYEasyForm: 6c2e273f68b9b73cdd4e5d5e7fffec21cf5b83c7
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TZImagePickerController: 733aa6fd217f87c61656764f8e76b2137b6c8f47
 
-PODFILE CHECKSUM: 48469c2669ea830ae53776ba6f6fe83b413a9c6e
+PODFILE CHECKSUM: 3df608e3225fba1ecb8071efe6f15a8ddd90f479
 
 COCOAPODS: 1.6.0.beta.2

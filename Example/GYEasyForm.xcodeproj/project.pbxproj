@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1899CB7A21D746580031A712 /* GYNormalFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899CB7921D746580031A712 /* GYNormalFormController.m */; };
+		1899CB7D21D74C3D0031A712 /* GYDynamicFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899CB7C21D74C3D0031A712 /* GYDynamicFormViewController.m */; };
+		1899CB8121D74E030031A712 /* GYCustomHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899CB8021D74E030031A712 /* GYCustomHeader.m */; };
+		1899CB8421D74F7F0031A712 /* GYPhotoWallRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899CB8321D74F7F0031A712 /* GYPhotoWallRow.m */; };
 		18EA91D721D22C8100A61AA4 /* GYEasyFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA91D621D22C8100A61AA4 /* GYEasyFormViewController.m */; };
 		262BB08D57D97CB3905C4109 /* Pods_GYEasyForm_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D38FC8ADB0C60BFEF76BA8 /* Pods_GYEasyForm_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -38,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1899CB7821D746580031A712 /* GYNormalFormController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYNormalFormController.h; sourceTree = "<group>"; };
+		1899CB7921D746580031A712 /* GYNormalFormController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYNormalFormController.m; sourceTree = "<group>"; };
+		1899CB7B21D74C3D0031A712 /* GYDynamicFormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYDynamicFormViewController.h; sourceTree = "<group>"; };
+		1899CB7C21D74C3D0031A712 /* GYDynamicFormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYDynamicFormViewController.m; sourceTree = "<group>"; };
+		1899CB7F21D74E030031A712 /* GYCustomHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYCustomHeader.h; sourceTree = "<group>"; };
+		1899CB8021D74E030031A712 /* GYCustomHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYCustomHeader.m; sourceTree = "<group>"; };
+		1899CB8221D74F7F0031A712 /* GYPhotoWallRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYPhotoWallRow.h; sourceTree = "<group>"; };
+		1899CB8321D74F7F0031A712 /* GYPhotoWallRow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYPhotoWallRow.m; sourceTree = "<group>"; };
 		18EA91D521D22C8100A61AA4 /* GYEasyFormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYEasyFormViewController.h; sourceTree = "<group>"; };
 		18EA91D621D22C8100A61AA4 /* GYEasyFormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYEasyFormViewController.m; sourceTree = "<group>"; };
 		21B94196568E982077174161 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -98,6 +110,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1899CB7721D745AD0031A712 /* CustomRow */ = {
+			isa = PBXGroup;
+			children = (
+				1899CB8221D74F7F0031A712 /* GYPhotoWallRow.h */,
+				1899CB8321D74F7F0031A712 /* GYPhotoWallRow.m */,
+			);
+			name = CustomRow;
+			sourceTree = "<group>";
+		};
+		1899CB7E21D74C480031A712 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1899CB7821D746580031A712 /* GYNormalFormController.h */,
+				1899CB7921D746580031A712 /* GYNormalFormController.m */,
+				1899CB7B21D74C3D0031A712 /* GYDynamicFormViewController.h */,
+				1899CB7C21D74C3D0031A712 /* GYDynamicFormViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		3E420F414BE0FBF09B77636A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,16 +178,20 @@
 		6003F593195388D20070C39A /* Example for GYEasyForm */ = {
 			isa = PBXGroup;
 			children = (
+				1899CB7E21D74C480031A712 /* Controller */,
+				1899CB7721D745AD0031A712 /* CustomRow */,
 				6003F59C195388D20070C39A /* GYAppDelegate.h */,
 				6003F59D195388D20070C39A /* GYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* GYViewController.h */,
 				6003F5A6195388D20070C39A /* GYViewController.m */,
+				18EA91D521D22C8100A61AA4 /* GYEasyFormViewController.h */,
+				18EA91D621D22C8100A61AA4 /* GYEasyFormViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				18EA91D521D22C8100A61AA4 /* GYEasyFormViewController.h */,
-				18EA91D621D22C8100A61AA4 /* GYEasyFormViewController.m */,
+				1899CB7F21D74E030031A712 /* GYCustomHeader.h */,
+				1899CB8021D74E030031A712 /* GYCustomHeader.m */,
 			);
 			name = "Example for GYEasyForm";
 			path = GYEasyForm;
@@ -334,12 +370,18 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GYEasyForm_Example/Pods-GYEasyForm_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GYEasyForm/GYEasyForm.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GYEasyForm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -376,7 +418,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* GYAppDelegate.m in Sources */,
+				1899CB7D21D74C3D0031A712 /* GYDynamicFormViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* GYViewController.m in Sources */,
+				1899CB7A21D746580031A712 /* GYNormalFormController.m in Sources */,
+				1899CB8121D74E030031A712 /* GYCustomHeader.m in Sources */,
+				1899CB8421D74F7F0031A712 /* GYPhotoWallRow.m in Sources */,
 				18EA91D721D22C8100A61AA4 /* GYEasyFormViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

@@ -7,12 +7,15 @@
 //
 
 #import "GYAppDelegate.h"
+#import <IQKeyboardManager/IQKeyboardManager.h>
 
 @implementation GYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[IQKeyboardManager sharedManager] setEnable:YES];
+    [[IQKeyboardManager sharedManager] setEnableAutoToolbar:YES];
+    [[IQKeyboardManager sharedManager] setShouldShowToolbarPlaceholder:YES];
     return YES;
 }
 

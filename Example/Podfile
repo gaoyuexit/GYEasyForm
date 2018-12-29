@@ -6,6 +6,10 @@ target 'GYEasyForm_Example' do
   pod 'GYEasyForm', :path => '../'
   pod 'GYEasyForm/Rows', :path => '../'
 
+  pod 'Masonry'
+  pod 'IQKeyboardManager'
+  pod 'TZImagePickerController'
+  
   target 'GYEasyForm_Tests' do
     inherit! :search_paths
 
