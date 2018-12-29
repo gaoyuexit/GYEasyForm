@@ -7,8 +7,17 @@
 
 ## Overview
 
-`GYEasyForm` is a library that makes it easy to build forms on the mobile side. 
-`GYEasyForm` is a simple version of [Eureka](https://github.com/xmartlabs/Eureka), written in `Objective-C`
+**GYEasyForm** is a library that makes it easy to build forms on the mobile side. 
+**GYEasyForm** is a simple version of [Eureka](https://github.com/xmartlabs/Eureka), written in `Objective-C`
+
+<table>
+ <tr>
+  <td>
+    <img src="https://raw.githubusercontent.com/zhugezhaofang/GYEasyForm/master/Images/demo1.jpeg" width="300"/>
+  </td>
+ </tr>
+</table>
+
 
 ## How to use
 
