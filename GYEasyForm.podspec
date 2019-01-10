@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GYEasyForm'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A mobile framework that is very easy to build forms.'
 
 # This description is used to generate tags and improve search results.
