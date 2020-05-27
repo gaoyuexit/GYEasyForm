@@ -28,6 +28,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		6E6E167FD2F5208A741C7F40 /* Pods_GYEasyForm_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76208C6304100B6D31DB7DDA /* Pods_GYEasyForm_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7363561D247E0F8700A855EE /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7363561C247E0F8700A855EE /* UIView+Toast.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7363561B247E0F8700A855EE /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		7363561C247E0F8700A855EE /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		76208C6304100B6D31DB7DDA /* Pods_GYEasyForm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYEasyForm_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D38FC8ADB0C60BFEF76BA8 /* Pods_GYEasyForm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYEasyForm_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -178,17 +181,14 @@
 		6003F593195388D20070C39A /* Example for GYEasyForm */ = {
 			isa = PBXGroup;
 			children = (
+				7363561F247E0FB800A855EE /* View */,
+				7363561E247E0FA600A855EE /* Main */,
+				7363561A247E0F8600A855EE /* Toast */,
 				1899CB7E21D74C480031A712 /* Controller */,
 				1899CB7721D745AD0031A712 /* CustomRow */,
 				6003F59C195388D20070C39A /* GYAppDelegate.h */,
 				6003F59D195388D20070C39A /* GYAppDelegate.m */,
-				1899CB7F21D74E030031A712 /* GYCustomHeader.h */,
-				1899CB8021D74E030031A712 /* GYCustomHeader.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* GYViewController.h */,
-				6003F5A6195388D20070C39A /* GYViewController.m */,
-				18EA91D521D22C8100A61AA4 /* GYEasyFormViewController.h */,
-				18EA91D621D22C8100A61AA4 /* GYEasyFormViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -235,6 +235,35 @@
 				21B94196568E982077174161 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		7363561A247E0F8600A855EE /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				7363561B247E0F8700A855EE /* UIView+Toast.h */,
+				7363561C247E0F8700A855EE /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		7363561E247E0FA600A855EE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5A5195388D20070C39A /* GYViewController.h */,
+				6003F5A6195388D20070C39A /* GYViewController.m */,
+				18EA91D521D22C8100A61AA4 /* GYEasyFormViewController.h */,
+				18EA91D621D22C8100A61AA4 /* GYEasyFormViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		7363561F247E0FB800A855EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1899CB7F21D74E030031A712 /* GYCustomHeader.h */,
+				1899CB8021D74E030031A712 /* GYCustomHeader.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +330,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -417,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7363561D247E0F8700A855EE /* UIView+Toast.m in Sources */,
 				6003F59E195388D20070C39A /* GYAppDelegate.m in Sources */,
 				1899CB7D21D74C3D0031A712 /* GYDynamicFormViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* GYViewController.m in Sources */,
