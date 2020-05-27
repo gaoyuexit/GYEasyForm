@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)reloadWithAnimation:(UITableViewRowAnimation)animation;
 /**更新cell*/
 - (void)updateCell;
-
+- (void)customUpdateCell;
 
 
 - (Class)associatedCellClass;

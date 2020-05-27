@@ -10,9 +10,7 @@
 
 @interface GYEasyCell()
 
-
 @end
-
 
 @implementation GYEasyCell
 
@@ -52,6 +50,7 @@
 }
 
 - (void)update{}
+- (void)customUpdate{}
 
 #pragma mark --- Setter && Getter
 - (UIView *)separatorLine {

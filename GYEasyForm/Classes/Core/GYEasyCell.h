@@ -18,12 +18,14 @@ NS_ASSUME_NONNULL_BEGIN
 /**分割线*/
 @property (nonatomic, strong) UIView *separatorLine;
 
-/**子类可重写该方法进行布局*/
+/**子类可重写该方法进行布局  Called only once during initialization */
 - (void)prepare NS_REQUIRES_SUPER;
 
-/**子类可重写该方法进行刷新操作*/
+/**子类可重写该方法进行刷新操作, call each time in `cellForRowAtIndexPath` */
 - (void)update NS_REQUIRES_SUPER;
 
+/**子类可重写该方法进行自定义操作*/
+- (void)customUpdate NS_REQUIRES_SUPER;
 
 @end
 

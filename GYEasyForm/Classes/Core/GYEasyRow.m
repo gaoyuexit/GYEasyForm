@@ -61,6 +61,7 @@ typedef void(^rowConfigBlock)(__kindof GYEasyRow *row, __kindof GYEasyCell *cell
 - (instancetype)init {
     if (self = [super init]) {
         NSAssert([[self associatedCellClass] isSubclassOfClass:[GYEasyCell class]], @"associatedCellClass must be a subclass of GYEasyCell");
+        //- setCell:(__kindof GYEasyCell *)cell
         self.cell = [[[self associatedCellClass] alloc] init];
         _height = 44.0f;
         _estimatedHeight = 44.0f;
@@ -92,6 +93,10 @@ typedef void(^rowConfigBlock)(__kindof GYEasyRow *row, __kindof GYEasyCell *cell
 
 - (void)updateCell {
     [self.cell update];
+}
+
+- (void)customUpdateCell {
+    [self.cell customUpdate];
 }
 
 + (void)rowConfig:(nullable rowConfigBlock)config{
