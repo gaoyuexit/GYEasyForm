@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class GYEasyCell, GYEasySection, GYEasyRow;
 
+typedef void(^RowConfigBlock)(__kindof GYEasyRow *row);
+
 @interface GYEasyRow<__covariant Cell: __kindof GYEasyCell *> : NSObject <GYTaggable, GYValueable, GYRowConformance>
 
 @property (nonatomic, weak) GYEasySection *section;
@@ -28,9 +30,10 @@ NS_ASSUME_NONNULL_BEGIN
 /**row的估算高度*/
 @property (nonatomic, assign) CGFloat estimatedHeight;
 
-+ (void)rowConfig:(nullable void(^)(__kindof GYEasyRow *row, Cell cell))config;
+/**全局设置默认的config*/
++ (void)rowDefaultConfig:(nullable RowConfigBlock)defautlConfig;
 
-//默认的初始化方法
+/**init*/
 + (instancetype)rowInit:(nullable void(^)(__kindof GYEasyRow *row))init;
 
 /**刷新Row*/

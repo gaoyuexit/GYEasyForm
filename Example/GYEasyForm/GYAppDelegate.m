@@ -8,6 +8,7 @@
 
 #import "GYAppDelegate.h"
 #import <IQKeyboardManager/IQKeyboardManager.h>
+@import GYEasyForm;
 
 @implementation GYAppDelegate
 
@@ -16,6 +17,11 @@
     [[IQKeyboardManager sharedManager] setEnable:YES];
     [[IQKeyboardManager sharedManager] setEnableAutoToolbar:YES];
     [[IQKeyboardManager sharedManager] setShouldShowToolbarPlaceholder:YES];
+    
+    [GYNormalTitleRow rowDefaultConfig:^(__kindof GYNormalTitleRow * _Nonnull row) {
+        //row.titleInsets = UIEdgeInsetsMake(0, 40, 0, 20);
+    }];
+    
     return YES;
 }
 

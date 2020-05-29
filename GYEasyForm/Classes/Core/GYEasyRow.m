@@ -11,8 +11,6 @@
 #import "GYEasySection.h"
 #import "GYEasyForm.h"
 
-typedef void(^rowConfigBlock)(__kindof GYEasyRow *row, __kindof GYEasyCell *cell);
-
 @interface GYEasyRow ()
 {
     GYEasyCell *_cell;
@@ -39,8 +37,6 @@ typedef void(^rowConfigBlock)(__kindof GYEasyRow *row, __kindof GYEasyCell *cell
 
 - (void)setCell:(__kindof GYEasyCell *)cell {
     _cell = cell;
-    rowConfigBlock config = [[[self class] rowConfigs] objectForKey: NSStringFromClass([self class])];
-    if (config) { config(self, cell); }
 }
 
 - (GYEasyCell *)cell{
@@ -54,6 +50,10 @@ typedef void(^rowConfigBlock)(__kindof GYEasyRow *row, __kindof GYEasyCell *cell
 
 + (instancetype)rowInit:(nullable void(^)(__kindof GYEasyRow *row))init {
     __kindof GYEasyRow *row = [[self alloc] init];
+    
+    RowConfigBlock defaultConfig = [[[self class] rowDefaultConfigs] objectForKey: NSStringFromClass([self class])];
+    if (defaultConfig) { defaultConfig(row); }
+    
     if (init) { init(row); }
     return row;
 }
@@ -74,7 +74,7 @@ typedef void(^rowConfigBlock)(__kindof GYEasyRow *row, __kindof GYEasyCell *cell
     return self;
 }
 
-+ (NSMutableDictionary<NSString *, rowConfigBlock> *)rowConfigs {
++ (NSMutableDictionary<NSString *, RowConfigBlock> *)rowDefaultConfigs {
     static NSMutableDictionary *_rowConfigs;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -99,11 +99,11 @@ typedef void(^rowConfigBlock)(__kindof GYEasyRow *row, __kindof GYEasyCell *cell
     [self.cell customUpdate];
 }
 
-+ (void)rowConfig:(nullable rowConfigBlock)config{
-    if (config) {
-        [self rowConfigs][NSStringFromClass(self)] = config;
++ (void)rowDefaultConfig:(nullable RowConfigBlock)defautlConfig{
+    if (defautlConfig) {
+        [self rowDefaultConfigs][NSStringFromClass(self)] = defautlConfig;
     }else{
-        [[self rowConfigs] removeObjectForKey:NSStringFromClass(self)];
+        [[self rowDefaultConfigs] removeObjectForKey:NSStringFromClass(self)];
     }
 }
 
