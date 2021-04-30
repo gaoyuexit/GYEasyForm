@@ -55,8 +55,9 @@
         row.height = 50;
         row.keyboardType = UIKeyboardTypeDecimalPad;
     }];
-    priceRow.onTextChange = ^(UITextField  *_Nonnull input) {
-        [weakSelf checkoutInputPriceAndAreaFormat:input];
+    
+    priceRow.onTextChange = ^(id<UITextInput>  _Nonnull input) {
+        [weakSelf checkoutInputPriceAndAreaFormat:(UITextField *)input];
     };
     
     GYTitleTextFieldRow *sizeRow = [GYTitleTextFieldRow rowInit:^(GYTitleTextFieldRow * _Nonnull row) {
@@ -67,8 +68,8 @@
         row.keyboardType = UIKeyboardTypeDecimalPad;
         row.limit = 8;
     }];
-    sizeRow.onTextChange = ^(UITextField  *_Nonnull input) {
-        [weakSelf checkoutInputPriceAndAreaFormat:input];
+    sizeRow.onTextChange = ^(id<UITextInput>  _Nonnull input) {
+        [weakSelf checkoutInputPriceAndAreaFormat:(UITextField *)input];
     };
 
     GYTitleTextFieldRow *passwordRow = [GYTitleTextFieldRow rowInit:^(GYTitleTextFieldRow * _Nonnull row) {
@@ -77,8 +78,8 @@
         row.height = 50;
         row.keyboardType = UIKeyboardTypeDefault;
     }];
-    passwordRow.onTextChange = ^(UITextField  *_Nonnull input) {
-        [weakSelf checkoutInputPasswordFormat:input];
+    passwordRow.onTextChange = ^(id<UITextInput>  _Nonnull input) {
+        [weakSelf checkoutInputPasswordFormat:(UITextField *)input];
     };
     
     //group3
